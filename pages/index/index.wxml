@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+    <view bindtap="toSecondPage" hover-class="press-style" class="normal-style" hover-stay-time="100"> 预加载第二个页面</view>
+    <view>300毫秒 预加载方式</view>
+</view>

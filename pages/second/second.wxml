@@ -1,0 +1,6 @@
+<!--pages/second/second.wxml-->
+<view style="display: flex;flex-direction: column;">
+    <view wx:if="{{arr.length}}" wx:for="{{arr}}" wx:key="id" style="display: flex;justify-content: space-between;">姓名：{{item.name}}
+        年龄：{{item.age}}岁
+    </view>
+</view>
