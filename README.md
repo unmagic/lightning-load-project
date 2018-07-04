@@ -165,6 +165,6 @@ GitHub源码地址：
 [微信小程序之提高应用速度小技巧](http://wetest.qq.com/lab/view/294.html?from=content_qcloud)
 
 
-##更新日志：
+## 更新日志：
 2018-06-26
 初次提交
