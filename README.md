@@ -1,5 +1,5 @@
 # lightning-load-project
-###小程序页面预加载技术源码
+
 #### 集成方式 <font color=red>看不效果览图的话，请看博客</font> https://blog.csdn.net/sinat_27612147/article/details/80802725
 
 #### 了解原理请看 https://blog.csdn.net/sinat_27612147/article/details/80798452
