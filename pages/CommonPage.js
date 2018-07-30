@@ -12,7 +12,7 @@ export default class CommonPage {
     }
 
     $init(originData) {
-        Object.assign(this.data, originData);
+        Object.assign(this.data = this.data ? this.data : {}, originData);
         this.$origin = JSON.parse(JSON.stringify(this.data));
         Object.freeze(this.$origin);
     }
