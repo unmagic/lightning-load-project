@@ -161,7 +161,7 @@ GitHub源码地址：
 [小程序预加载技术源码](https://github.com/unmagic/lightning-load-project)
 
 
-感谢这篇文章：
+感谢这篇文章提供的思想：
 [微信小程序之提高应用速度小技巧](http://wetest.qq.com/lab/view/294.html?from=content_qcloud)
 
 
