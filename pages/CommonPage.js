@@ -2,9 +2,6 @@ import Navigator from "./Navigator";
 
 export default class CommonPage {
     constructor(...args) {
-        if (new.target === CommonPage) {
-            throw new Error("the CommonPage class can't be instantiated!")
-        }
         if (args.length) {
             const name = args[0].clazzName;
             if (name) {
@@ -12,6 +9,7 @@ export default class CommonPage {
                 Navigator.putPage(name, this);
             }
         }
+        console.log('是否相同', CommonPage.prototype , Object.getPrototypeOf(this));
     }
 
     $init(originData) {
